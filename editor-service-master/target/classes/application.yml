@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+word:
+  to:
+    html:
+      path: /Users/seanking/Desktop/editor-service-master/doc/  #  /tmp/docker/doc/
+
+spring:
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
